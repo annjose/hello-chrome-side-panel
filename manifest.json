@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Simple Panel",
+  "version": "1.0",
+  "description": "A simple Chrome extension that adds a side panel to the browser.",
+  
+  "permissions": [
+    "sidePanel"
+  ],
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  }
+}
